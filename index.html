@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Responsive: scale the page to the device width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jashan Sharma Phuyal | Portfolio</title>
+    <!-- All styling lives in the external stylesheet (separation of concerns) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===================== HEADER ===================== -->
+    <header>
+        <h1>Jashan Sharma Phuyal</h1>
+        <p>IT Student and Web Developer</p>
+    </header>
+
+    <!-- ===================== NAVIGATION ===================== -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- ===================== ABOUT ===================== -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-flex">
+                <img src="assets/avatar.jpg" alt="Profile photo of Jashan Sharma Phuyal">
+                <p>
+                    Hello! I am Jashan Sharma Phuyal, an Information Technology student
+                    based in Kathmandu, Nepal. I am studying for a Bachelor's in IT at
+                    Model Institute of Technology, and alongside my studies I work as the
+                    sales lead at Grow Mailers. Lately I have been teaching myself web
+                    development, and this site is one of the things I have built while
+                    learning HTML and CSS.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===================== SKILLS ===================== -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+
+            <dl>
+                <dt>Web</dt>
+                <dd>HTML5, CSS3, basic JavaScript</dd>
+
+                <dt>Tools</dt>
+                <dd>Git, GitHub, Visual Studio Code</dd>
+
+                <dt>Office and Productivity</dt>
+                <dd>Microsoft Excel, Word, report writing</dd>
+
+                <dt>Other Strengths</dt>
+                <dd>Client communication, customer service, email support</dd>
+            </dl>
+        </section>
+
+        <!-- ===================== PROJECTS ===================== -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project-grid">
+                <article>
+                    <span class="tag">Python</span>
+                    <h3>Python ATM Project</h3>
+                    <p>A command line ATM program written in Python. It lets a user
+                       check their balance, deposit money, and withdraw money.</p>
+                    <p>Repository:
+                        <a href="https://github.com/Jashanphuyal/atm-python-project" target="_blank" rel="noopener">atm-python-project</a>
+                    </p>
+                </article>
+
+                <article>
+                    <span class="tag">C</span>
+                    <h3>Attendance Management System in C</h3>
+                    <p>A console program written in C to add students and record
+                       and report their attendance.</p>
+                    <p>Repository:
+                        <a href="https://github.com/Jashanphuyal/Attandence-Managemant-Program-In-C-" target="_blank" rel="noopener">Attandence-Managemant-Program-In-C-</a>
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===================== EXPERIENCE ===================== -->
+        <section id="experience">
+            <h2>Experience and Education</h2>
+
+            <div class="exp-item">
+                <h3>Sales Lead at Grow Mailers</h3>
+                <span class="exp-date">Feb 2026 to now</span>
+                <p>I lead client outreach for our email marketing service and keep
+                   deals moving with steady follow ups.</p>
+            </div>
+
+            <div class="exp-item">
+                <h3>Customer Service Rep at Allipse Ecom LLC</h3>
+                <span class="exp-date">Oct 2025 to Feb 2026</span>
+                <p>I answered customer emails, sorted out support issues, and wrote
+                   service reports for overseas clients.</p>
+            </div>
+
+            <div class="exp-item">
+                <h3>BIT in Information Technology</h3>
+                <span class="exp-date">2024 to now</span>
+                <p>Model Institute of Technology. Currently studying for my Bachelor's degree.</p>
+            </div>
+        </section>
+
+        <!-- ===================== CONTACT ===================== -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <!-- To make this form deliver mail on GitHub Pages, create a free
+                 endpoint at https://formspree.io and replace YOUR_FORM_ID below. -->
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="post">
+
+                <p>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </p>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+            <p class="contact-direct">
+                Or reach me at
+                <a href="mailto:jashanphuyal.work@gmail.com">jashanphuyal.work@gmail.com</a>
+                &nbsp;|&nbsp; +977 9803787113 &nbsp;|&nbsp; Kandaghari, Kathmandu, Nepal
+            </p>
+        </section>
+
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+        <p>&copy; 2026 Jashan Sharma Phuyal. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
